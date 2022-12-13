@@ -5,8 +5,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        
+        .boxx{
+
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            margin: 10px;
+            border: 1px solid black;
+            font-size: 10px;
+            text-align: center;
+           
+
+        }
+
+        .big-box{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+            border: 1px solid black;
+            font-size: 10px;
+            text-align: center;
+
+
+        }
+        .big-big-box{
+            display: flex;
+        }
+
+        .large-box{
+
+            display: flex;
+            flex-direction: column;
+             justify-content: space-between;
+            align-items: flex-end;
+            
+        }
+
+        .align{
+
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* ...................... */
+
+        .wrape-me{
+
+            /* width: 500px; */
+            /* height: 500px; */
+            background-color: antiquewhite;
+            border: 1px dashed black;
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .wrap{
+
+            width: 170px;
+            height: 170px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            margin: 5px;
+           
+        }
+
+        .wrap h1{
+
+            color: white;
+             text-align: center; 
+            
+        }
+
+        #order{
+
+            order: 5;
+        }
+
+        #orderr{
+
+    order: 15;
+    }
+
+
+        
+    </style>
 </head>
 <body>
+
+   <section class="large-box">
+    <div class="big-box">
+        <div class="boxx">
+            <h1>box-1</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-2</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-3</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-4</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-5</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-6</h1>
+        </div>
+        <div class="boxx">
+            <h1>box-7</h1>
+        </div>
+      
+    </div>
+
+    <!--  -->
+
+    <div class="big-big-box">
+        <div class="box">
+            <h1>box-8</h1>
+        </div>
+        <div class="box">
+            <h1>box-9</h1>
+        </div>
+        <div class="box">
+            <h1>box-10</h1>
+        </div>
+    </div>
     
+   </section>
+
+   <!--  -->
+
+   <div class="align">
+    <h1>align</h1>
+   </div>
+
+   <!-- ...................... -->
+
+   <hr>
+
+   <div class="wrape-me">
+    <div class="wrap">
+        <h1>wram me 1</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 2</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 3</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 4</h1>
+       </div>
+       <div class="wrap" id="orderr">
+        <h1>wram me 5</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 6</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 7</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 8</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 9</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 10</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 11</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 12</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 13</h1>
+       </div>
+       <div class="wrap">
+        <h1>wram me 14</h1>
+       </div>
+       <div class="wrap" id="order">
+        <h1>wram me 15</h1>
+       </div>
+   </div>
 </body>
 </html>
